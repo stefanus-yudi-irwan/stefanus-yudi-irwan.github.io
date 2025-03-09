@@ -3,6 +3,7 @@ title: "Neural Network Collaborative Filtering"
 excerpt: "This experiment aim to compare which structure between GMF, MLP, and NEUFM best for collaborative filtering using grouplens open dataset. Hit Ratio and NDCG become matrix to conclude the performance of the neural network."
 collection: portfolio
 permalink: /portfolio/06
+category: deep_and_machine_learning
 company: Pacmann Academy
 date: 2024-01-25
 slidesurl: 'https://drive.google.com/file/d/12-EDH1vBJ3vOjgTtjtXqbPWmRls_Hf5G/view?usp=sharing'

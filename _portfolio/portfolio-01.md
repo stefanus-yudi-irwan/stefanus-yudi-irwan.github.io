@@ -3,6 +3,7 @@ title: "Library Management System"
 excerpt: "SAT Library Management System is an application for helping librarians manage the library. This app was designed using Python and MySQL."
 collection: portfolio
 permalink: /portfolio/01
+category: data_processing
 company: Pacmann Academy
 date: 2022-07-24
 slidesurl: 'https://drive.google.com/file/d/1fYpo1hxYKxSe9WO74ZcKOBgbPmKcyubG/view?usp=sharing'

@@ -20,7 +20,7 @@ Education
 <p>
   <span style="float: left;">Engineering Physics, Universitas Gadjah Mada</span>
   <span style="float: right;">Aug 2015 - Jul 2019</span>
-  <br><em>Bachelor of Engineering (cum laude, 3.82/4.00)</em>
+  <br><em>Bachelor of Engineering (cumlaude, 3.82/4.00)</em>
 </p>
 
 Work experience
@@ -60,17 +60,16 @@ Work experience
   <div style="text-align: justify; margin-top:-20px">Guided students in electronics, control, and sensor laboratory practices while conducting extra lessons to enhance their understanding. Prepared performance reports to track progress and collaborated with lecturers to review assignments regularly.</div>
 </p>
 
-Skills
-======
-1. **Data Scientist and AI Engineering**: Ability in utilizing supervised and unsupervised machine learning algorithms, natural language processing, deep learning, and large language models.  
-2. **Data Analysis**: Ability in using spreadsheet tools (*Google Sheets, MS Excel*), query languages (*MySQL, PostgreSQL, Google BigQuery*), and visualization tools (*Tableau, Pandas, Matplotlib, Seaborn*).  
-3. **Programming Languages**: Ability in using *Python, Golang, SQL, R* for manipulating and processing data, creating data pipelines, and building data infrastructures.  
-4. **Software Infrastructure**: Ability in building databases (*PostgreSQL*), caches (*Redis*), vector databases (*Redis-Search, Qdrant*), Docker containers, CI/CD pipelines, and Kubernetes. 
-
 Publications
 ======
   <ol>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
+  {% endfor %}</ol>
+
+Public Portfolio
+======
+  <ol>{% for post in site.portfolio reversed %}
+    {% include portfolio-list-cv.html %}
   {% endfor %}</ol>
 
 Certifications
@@ -78,17 +77,24 @@ Certifications
   <ol>{% for post in site.certifications reversed %}
     {% include certifications-list-cv.html %}
   {% endfor %}</ol>
-  
-Talks
+
+Skills
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+1. **Data Scientist and AI Engineering**: Ability in utilizing supervised and unsupervised machine learning algorithms, natural language processing, deep learning, and large language models.  
+2. **Data Analysis**: Ability in using spreadsheet tools (*Google Sheets, MS Excel*), query languages (*MySQL, PostgreSQL, Google BigQuery*), and visualization tools (*Tableau, Pandas, Matplotlib, Seaborn*).  
+3. **Programming Languages**: Ability in using *Python, Golang, SQL, R* for manipulating and processing data, creating data pipelines, and building data infrastructures.  
+4. **Software Infrastructure**: Ability in building databases (*PostgreSQL*), caches (*Redis*), vector databases (*Redis-Search, Qdrant*), Docker containers, CI/CD pipelines, and Kubernetes. 
   
-Teaching
+Teaching Experience
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+<ol>
+  <li>Assistant Lecturer Industrial Instrumentation <span style="float: right;"><i>UGM, 2019</i></span></li>
+  <li>Laboratory Assistant Sensor and Actuator <span style="float: right;"><i>UGM, 2018</i></span></li>
+  <li>Assistant Lecturer Automatic Control <span style="float: right;"><i>UGM, 2018</i></span></li>
+  <li>Assistant Lecturer Electronics <span style="float: right;"><i>UGM, 2017</i></span></li>
+  <li>Laboratory Assistant Electronics <span style="float: right;"><i>UGM, 2017</i></span></li>
+</ol>
+
+
   
 

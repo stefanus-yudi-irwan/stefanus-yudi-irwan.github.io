@@ -3,6 +3,7 @@ title: "Lithofacies Classification"
 excerpt: "This project aim to find the best supervised machine learning algorithm for classifying oil well rock type based on geology measurement data."
 collection: portfolio
 permalink: /portfolio/04
+category: deep_and_machine_learning
 company: Pacmann Academy
 date: 2022-11-22
 slidesurl: 'https://drive.google.com/file/d/1L-n0dsrdSiZ_NWG7Y9xG8llIRNOAAgkN/view?usp=sharing'

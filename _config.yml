@@ -83,8 +83,17 @@ publication_category:
     title: 'Journal Articles'  
   books:
     title: 'Books'
-  
 
+# Portfolio Category
+portfolio_category:
+  deep_and_machine_learning:
+    title: 'Deep and Machine Learning'
+  data_analysis:
+    title: 'Data Analysis'
+  data_processing:
+    title: 'Data Processing'
+  dashboard:
+    title: 'Dashboard'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"

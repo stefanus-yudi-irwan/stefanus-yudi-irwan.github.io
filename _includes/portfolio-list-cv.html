@@ -33,9 +33,9 @@
                 <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
               {% endif %}
             </h3>
-            {% if post.collection == 'certifications' %}
+            {% if post.collection == 'portfolio' %}
               <span class="certification-info">
-                <i>{{ post.granter }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y.%m" }}
+                <i>{{ post.company }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y.%m" }}
               </span>
             {% endif %}
         </div>

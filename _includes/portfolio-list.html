@@ -65,6 +65,9 @@
         {% if post.repositoryurl %}
           {% assign links = links | append: '<a href="' | append: post.repositoryurl | append: '">Go To Repository</a>' %}
         {% endif %}
+        {% if post.dashboardurl %} 
+          {% assign links = links | append: '<a href="' | append: post.dashboardurl | append: '">View On Tableau</a>' %}
+        {% endif %}
         
         {% if links != "" %}
           <p style="font-size: smaller">{{ links }}</p>

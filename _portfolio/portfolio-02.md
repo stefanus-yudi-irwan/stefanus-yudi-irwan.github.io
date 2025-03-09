@@ -3,6 +3,7 @@ title: "Cyclistic Customer Analysis"
 excerpt: "Cyclistic Customer Analysis is a project to analyze bike usage data to acknowledge customer behaviour and provide strategy to increase bike usage."
 collection: portfolio
 permalink: /portfolio/02
+category: data_analysis
 company: Google Career Certificates
 date: 2022-09-11
 slidesurl: 'https://drive.google.com/file/d/1FcZLxHkcVIx5E1WTBvavMKFRRFbluzmc/view?usp=sharing'

@@ -3,6 +3,7 @@ title: "Insurance Charge Data Analysis"
 excerpt: "Insurance charge data analysis is a project to analyze and find pattern in insurance data and induce a prominent factors influencing insurance charge based on data."
 collection: portfolio
 permalink: /portfolio/03
+category: data_analysis
 company: Pacmann Academy
 date: 2022-10-06
 slidesurl: 'https://drive.google.com/file/d/1Iydvlfp41eB4zF2r3qUmkT0zzrdLS0iZ/view?usp=sharing'

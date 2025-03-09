@@ -3,6 +3,7 @@ title: "Linux Data Wrangling"
 excerpt: "This project aim to to turn raw data (data.zip) about traffic ecommerce into data_clean.csv which contain purchasing data only. This project done by using csvkit python external library for data wrangling in shell and some basic linux terminal built in command."
 collection: portfolio
 permalink: /portfolio/08
+category: data_processing
 company: Pacmann Academy
 date: 2022-07-25
 image: '/files/portfolio/portfolio-default-pacmann.jpg'

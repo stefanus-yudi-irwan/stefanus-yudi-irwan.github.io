@@ -3,6 +3,7 @@ title: "Litofacies Model Deployment"
 excerpt: "This project aim to deploy trained litofacies model to the cloud and serve model with front end for input geological data measurement by form."
 collection: portfolio
 permalink: /portfolio/05
+category: deep_and_machine_learning
 company: Pacmann Academy
 date: 2022-11-22
 slidesurl: 'https://drive.google.com/file/d/1rWCm3Zx1UMmILFDkWjSRAPHqjEjxOV6U/view?usp=sharing'

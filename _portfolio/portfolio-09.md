@@ -3,6 +3,7 @@ title: "Approximate Nearest Neighbor"
 excerpt: "This project compare query execution time of ANN and KNN using embedding with dimention (1x50)"
 collection: portfolio
 permalink: /portfolio/09
+category: deep_and_machine_learning
 company: Pacmann Academy
 date: 2023-06-01
 slidesurl: 'https://drive.google.com/file/d/1OjeUwh1jnLj_PuU58iekjMXJEI1qkOmF/view?usp=sharing'
