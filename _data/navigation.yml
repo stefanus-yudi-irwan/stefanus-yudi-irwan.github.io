@@ -16,10 +16,4 @@ main:
     url: /certifications/ 
 
   - title: "Portfolio"
-    url: /portfolio/  
-
-  - title: "Blog Posts"
-    url: /year-archive/
-    
-  - title: "Guide"
-    url: /markdown/
+    url: /portfolio/ 
