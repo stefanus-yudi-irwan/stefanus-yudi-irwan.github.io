@@ -284,7 +284,7 @@ defaults:
       path: ""
       type: portfolio
     values:
-      layout: single
+      layout: portfolio-detail
       author_profile: true
       share: true
       comment: true

@@ -1,0 +1,76 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if include.type == "grid" and teaser %}
+      <div class="archive__item-teaser">
+        <img src=
+          {% if teaser contains "://" %}
+            "{{ teaser }}"
+          {% else %}
+            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+          {% endif %}
+          alt="">
+      </div>
+    {% endif %}
+
+    <div class="certification-container">
+      {% if post.image %}
+        <img src="{{ post.image }}" alt="Certification Image" class="certification-image">
+      {% endif %}
+
+      <div class="certification-content">
+        <div class="certification-header">
+          <h2 class="certification-title">
+            {% if post.url %}
+              <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+            {% endif %}
+          </h2>
+          {% if post.collection == 'portfolio' %}
+            <span class="certification-info">
+              <i>{{ post.company }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}
+            </span>
+          {% endif %}
+        </div>
+
+        <!-- Excerpt -->
+        {% if post.excerpt %}
+         <p> {{ post.excerpt }} </p>
+        {% endif %}
+
+        <!-- Certificate Link -->
+        {% assign links = "" %}
+
+        {% if post.paper %}
+          {% assign links = links | append: '<a href="' | append: post.paper | append: '">View Writing</a> | ' %}
+        {% endif %}
+        {% if post.slidesurl %}
+          {% assign links = links | append: '<a href="' | append: post.slidesurl | append: '">View Slides</a> | ' %}
+        {% endif %}
+        {% if post.video %}
+          {% assign links = links | append: '<a href="' | append: post.video | append: '">Watch Video</a> | ' %}
+        {% endif %}
+        {% if post.repositoryurl %}
+          {% assign links = links | append: '<a href="' | append: post.repositoryurl | append: '">Go To Repository</a>' %}
+        {% endif %}
+        
+        {% if links != "" %}
+          <p style="font-size: smaller">{{ links }}</p>
+        {% endif %}
+      </div>
+    </div>
+
+  </article>
+</div>
