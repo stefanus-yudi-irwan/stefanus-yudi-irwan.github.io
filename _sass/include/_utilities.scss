@@ -502,3 +502,58 @@ a.reversefootnote {
   color: $danger-color;
   font-weight: bold;
 }
+
+.certification-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 15px 0;
+}
+
+.certification-image {
+  width: 300px; /* Adjust as needed */
+  height: 200px;
+  object-fit: contain; /* Keeps the image aspect ratio */
+  margin-right: 10px; /* Adds spacing between image and title */
+}
+
+.certification-image-detail {
+  width: 900px; /* Adjust as needed */
+  height: 600px;
+  object-fit: contain; /* Keeps the image aspect ratio */
+  display: block; /* Ensures margin auto works */
+  margin: 0 auto; /* Centers the image horizontally */
+}
+
+.certification-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column; /* This ensures items stack vertically */
+}
+
+.certification-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.certification-title {
+  margin: 0 0 5px;
+}
+
+.certification-excerpt {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 8px;
+  text-align: justify;
+}
+
+.certification-info {
+  text-align: right;
+  font-style: italic;
+}
+
+
+

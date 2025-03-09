@@ -9,13 +9,13 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Stefanus Yudi Irwan"
+title                    : "My Website"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
-url                      : https://stefanus-yudi-irwan.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+name                     : &name "Stefanus Yudi Irwan"
+description              : &description "Data Scientist & AI/ML Engineer"
+url                      : https://stefanus-yudi-irwan.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "stefanus-yudi-irwan/stefanus-yudi-irwan.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -23,43 +23,43 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  name             : "Stefanus Yudi Irwan"
+  pronouns         : # He 
+  bio              : "Curious person when talking about engineering, artificial intelligence, and machine learning. Dreaming high and moving out."
+  location         : "Jakarta, Indonesia"
+  employer         : # "Ernst & Young"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "yudi.stefanus22@gmail.com" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : #"https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : #"http://orcid.org/yourorcidurl"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
   scopus           : # URL
 
   # Repositories and software development
-  bitbucket        : # Username - Update with your username on the site
+  bitbucket        : # Username
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
-  kaggle           : # Username  
+  github           : stefanus-yudi-irwan
+  kaggle           : stefanusyudiirwan
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
   goodreads        : # Username
   google_plus      : # Username
   keybase          : # Username
-  instagram        : # Username
+  instagram        : stefanusyudiirwan
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : stefanusyudi22
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -72,17 +72,19 @@ author:
   weibo            : # Username
   wikipedia        : # Username
   xing             : # Username
-  youtube          : # Username
+  youtube          : stefanusyudiirwan1506
   zhihu            : # Username
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
+  manuscripts:
+    title: 'Journal Articles'  
+  books:
+    title: 'Books'
+  
+
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -225,6 +227,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  certifications:
+    output: true
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -262,6 +267,15 @@ defaults:
       type: publications
     values:
       layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _certifications
+  - scope:
+      path: ""
+      type: certifications
+    values:
+      layout: certification-detail
       author_profile: true
       share: true
       comments: true
